@@ -5,6 +5,13 @@ https://github.com/lauralardies/chess
 
 Hemos creado un programa en el cual el usuario, al iniciar una partida de ajedrez, crea un fichero el cual debe nombrar. Una vez nombrado el fichero, la partida comienza. Primero siempre se pregunta si el usuario quiere hacer un movimiento. Si es así, el usuario debe introducir la fila y columna de la ficha que quiere mover además de la fila y columna de donde quiere desplazar la ficha seleccionada. Esto es así hasta que el usuario decida que quiere terminar la partida. Una vez terminada la partida, el usuario escoge si quiere revisar alguna jugada. Si es así, se le pide introducir el número de la jugada que quiere revisar y se imprime el tablero de la misma. Puede revisar todas las jugadas que quiera todas las veces que quiera. 
 
+
+El diagrama de flujo que tenemos en nuestro código es el siguiente:
+
+<br>
+<img height="400" src="https://github.com/lauralardies/chess/blob/main/Chess.jpg" />
+<br>
+
 ```
 class Chess():
         board = []
